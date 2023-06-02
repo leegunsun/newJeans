@@ -18,7 +18,7 @@ async function bootstrap() {
   });
 
   app.setGlobalPrefix('api');
-  // app.useGlobalPipes(new ValidationPipe({ whitelist: true, transform: true }));
+  // app.useGlobalPipes(new ValidationPipe({ whitelist: true, transform: true })); test
   await app.listen(3000);
 }
 bootstrap();
